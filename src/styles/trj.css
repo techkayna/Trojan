@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: #ffff;
+
+  width: auto;
+  height: 95px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.navHeader img {
+  width: 52px;
+  height: 58px;
+}
+
+.navHeader {
+  display: flex;
+  align-items: center;
+
+  color: #000;
+
+  font-family: "Manjari";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 10px;
+
+}
+.navSeparator{
+    width: 2px;
+    height: 63px;
+    background-color : #000;
+    margin-top: 15px;
+}
+
+h6{
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 18px;
+}
+
+.navContent {
+    
+  display: flex;
+  justify-content: center;
+
+  margin-top: 15px;
+
+  color: #000;
+
+  font-family: "Manjari";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 50px;
+  margin-left: 40px;
+}
+
