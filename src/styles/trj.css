@@ -137,6 +137,7 @@ article {
   flex-direction: column;
   width: auto;
   height: 150px;
+  padding-top: 20px;
 }
 
 h5 {
@@ -164,8 +165,152 @@ h4 {
 main {
   width: auto;
   height: 2432px;
-
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 240px;
+  background-color: #ffff;
+  justify-content: flex-end;
+  padding-top: 40px;
+}
+
+.mainDad {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 200px;
+}
+
+main p {
+  width: 583px;
+  color: #000;
+  text-align: justify;
+  font-family: "Anaheim";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.mainContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+main h6 {
+  display: flex;
+  width: 225.465px;
+  height: 24px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  color: #917652;
+  text-align: center;
+  font-family: "Red Hat Display";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.14px;
+  text-transform: uppercase;
+}
+
+.mainSeparator {
+  display: flex;
+  width: 146px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #987e5d;
+}
+
+.divide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 9px;
+}
+
+aside {
+  width: auto;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+}
+
+aside h2 {
+  color: #997e59;
+  font-family: "Red Hat Display";
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer {
+  display: flex;
+  width: auto;
+  height: 325px;
+  background: rgba(235, 233, 233, 0.27);
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dadFooter {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 250px;
+}
+
+footer h3 {
+  display: flex;
+  width: 90.359px;
+  height: 27px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  font-family: "Red Hat Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 32px; /* 152.381% */
+  letter-spacing: 0.31px;
+  text-transform: uppercase;
+}
+
+.footerContent {
+  display: flex;
+  width: 180px;
+  height: 21px;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #4b4b49;
+  font-family: Red Hat Display;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px; /* 161.538% */
+  letter-spacing: 0.13px;
+}
+footer img {
+  width: 20px;
+  height: 19.996px;
+  flex-shrink: 0;
+}
+
+.socialMedia{
+  display: flex;
+ align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
