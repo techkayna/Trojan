@@ -5,88 +5,188 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trojan</title>
     <link rel="stylesheet" href="./src/styles/trj.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
   </head>
   <body>
     <nav>
       <div class="navHeader">
         <img src="./src/img/image 1.png" alt="headerLogo" />
-        <h6>Trojan</h6>
+        <h6>TROJAN</h6>
         <div class="navSeparator"></div>
 
         <div class="navContent">
-          <p>Acervo</p>
-          <p>Estatuas</p>
-          <p>Vasos</p>
+          <a href="#linkAcervo">ACERVO</a>
+          <a href="#linkEstatuas">ESTÁTUAS</a>
+          <a href="#linkVasos">VASOS</a>
         </div>
-<!-- 
-         <img src="./src/img/svg/🦆 icon _User_.svg" alt="iconUser" />
-        <p>Entrar</p>
-      </div> -->
+        <div class="enter">
+          <img src="./src/img/svg/🦆 icon _User_.svg" alt="iconUser" />
+          <p>Entrar</p>
+        </div>
+      </div>
     </nav>
-     <header>
-      <img class="headerImage" src="./src/img/png/god´s-img.png" alt="backImageGods" />
-      <h1>Grecia Antiga</h1>
-     <!-- separator -->
-     <h3>
-        Adentre no imersivo mundo greco-romano e descubra as maravilhas que o
-        passado nos traz, explorando nosso tesouro de estátuas majestosas,
-        pinturas vívidas e vasos ornamentados.
-      </h3>
+    <header>
+      <div
+        class="carousel"
+        data-flickity='{"fullscreen": true,
+        "lazyLoad": 1}'
+      >
+        <div class="carousel-cell">
+          <img data-flickity-lazyload="./src/img/png/Header.png" />
+        </div>
+        <div class="carousel-cell">
+          <img data-flickity-lazyload="./src/img/png/greekStatues.png" />
+        </div>
+        <div class="carousel-cell">
+          <img data-flickity-lazyload="./src/img/png/vasesGreek.png" />
+        </div>
+      </div>
     </header>
+
     <article>
-      <h5>uma Imersão online, aberta 24hs por dia!</h5>
+      <h5>Uma imersão online, aberta 24hs por dia!</h5>
       <h4>Conheça o berço da humanidade de onde você estiver!</h4>
     </article>
+
     <main>
-      <img src="./src/img/png/trigods.png" alt="estatua deuses" />
-      <img src="./src/img/png/killvases.png" alt="vaso1" />
-      <img src="./src/img/png/animalVases.png" alt="vaso2" />
-      <img src="./src/img/png/Le Penseur.png" alt="pensador" />
-
-      <h6>Acervo</h6>
-     <!-- separator -->
-     <p>
-        Em Trojan contamos com vasos cerâmicos, adornados com padrões
-        intrincados e cenas mitológicas, contam histórias silenciosas de uma era
-        rica em cultura. Cada pincelada em nossas pinturas transporta você para
-        o cotidiano da Grécia Antiga, enquanto nossas estátuas esculpidas em
-        mármore e bronze capturam a beleza eterna dos deuses e heróis gregos.
-      </p>
-
-      <h6>Estátuas</h6>
-     <!-- separator -->
-     <p>
-        As estátuas da Grécia Antiga são notáveis pela sua perfeição anatômica e
-        equilíbrio estético. Esculpidas em mármore e bronze, retratam divindades
-        e atletas com realismo e idealismo, transmitindo emoções através de
-        expressões faciais e poses. Estas esculturas desempenharam um papel
-        crucial na religião e sociedade gregas, e o seu legado perdura na
-        história da arte, influenciando gerações subsequentes de artistas.
-      </p>
-
-      <img src="./src/img/png/trigods.png" alt="estatua deuses" />
-      <img src="./src/img/png/cesarStatues.png" alt="cesarStatues" />
-      <img src="./src/img/png/Samotrácia.png" alt="vitoria" />
-      <img src="./src/img/png/Le Penseur.png" alt="pensador" />
-
-      <img src="./src/img/png/vaso3.png" alt="vaso3" />
-      <img src="./src/img/png/killvases.png" alt="vaso1" />
-      <img src="./src/img/png/animalVases.png" alt="vaso2" />
-      <img src="./src/img/png/vaso4.png" alt="vaso4" />
-
-      <h6>Vasos</h6>
-     <!-- separator -->
-     <p>
-        Lorem ipsum dolor sit amet consectetur. Sed vitae egestas risus in
-        eleifend porttitor nam. Amet ut dictumst commodo aliquam eget augue at
-        mi. Commodo sollicitudin ultrices ut nulla venenatis quam at. Lorem
-        ipsum dolor sit amet consectetur. Sed vitae egestas risus in eleifend
-        porttitor nam. Amet ut dictumst commodo aliquam eget augue at mi.
-        Commodo sollicitudin ultrices ut nulla venenatis quam at.
-      </p>
+      <div
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        id="linkAcervo"
+        class="mainDad"
+      >
+        <img src="./src/img/png/acervoImg.png" alt="Images acervo" />
+        <div class="mainContent">
+          <div class="divide">
+            <h6>Acervo</h6>
+            <div class="mainSeparator"></div>
+          </div>
+          <p>
+            Em Trojan contamos com vasos cerâmicos, adornados com padrões
+            intrincados e cenas mitológicas, contam histórias silenciosas de uma
+            era rica em cultura. Cada pincelada em nossas pinturas transporta
+            você para o cotidiano da Grécia Antiga, enquanto nossas estátuas
+            esculpidas em mármore e bronze capturam a beleza eterna dos deuses
+            e heróis gregos.
+          </p>
+        </div>
+      </div>
+      <div
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="1500"
+        id="linkEstatuas"
+        class="mainDad"
+      >
+        <div class="mainContent">
+          <div class="divide">
+            <h6>Estátuas</h6>
+            <div class="mainSeparator"></div>
+          </div>
+          <p>
+            As estátuas da Grécia Antiga são notáveis pela sua perfeição
+            anatômica e equilíbrio estético. Esculpidas em mármore e bronze,
+            retratam divindades e atletas com realismo e idealismo, transmitindo
+            emoções através de expressões faciais e poses. Estas esculturas
+            desempenharam um papel crucial na religião e sociedade gregas, e o
+            seu legado perdura na história da arte, influenciando gerações
+            subsequentes de artistas.
+          </p>
+        </div>
+        <img src="./src/img/png/estatuasImg´s.png" alt="Images estatuas" />
+      </div>
+      <div
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-duration="1500"
+        id="linkVasos"
+        class="mainDad"
+      >
+        <img src="./src/img/png/vasosImg´s.png" alt="Images vasos" />
+        <div class="mainContent">
+          <div class="divide">
+            <h6>Vasos</h6>
+            <div class="mainSeparator"></div>
+          </div>
+          <p>
+            Os vasos da Grécia Antiga, em cerâmica, destacam-se por sua
+            excelência artística, combinando realismo e simbolismo em
+            representações de cotidiano, mitologia e rituais religiosos. Além de
+            sua função prática, desempenharam um papel vital na religião e
+            sociedade gregas, transmitindo narrativas visuais profundas. Seu
+            legado perdura na história da arte, influenciando artistas
+            subsequentes com sua sofisticação técnica e expressividade
+            narrativa.
+          </p>
+        </div>
+      </div>
     </main>
-    <aside><H2>CLIQUE E CONHEÇA O ACERVO COMPLETO</H2></aside>
-    
-    <footer></footer>
+    <aside>
+      <a href="https://www.medalhaopersa.com.br/decoracao" target="_blank"
+        ><h2>CLIQUE E CONHEÇA O ACERVO COMPLETO</h2></a
+      >
+    </aside>
+
+    <footer data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1000">
+      <div class="dadFooter">
+        <div class="footerContent">
+          <h3>Galeria</h3>
+          <p>Sobre</p>
+          <p>Exposições</p>
+          <p>Fale Conosco</p>
+        </div>
+        <div class="footerContent">
+          <h3>Ajuda</h3>
+          <p>Política de Privacidade</p>
+          <p>Segurança</p>
+          <p>Trabalhe Conosco</p>
+        </div>
+        <div class="footerContent">
+          <h3>Localização</h3>
+          <p>
+            Trojan Galery <br />
+            Rua Amador Bueno, 501 <br />
+            São Paulo - SP - Brasil
+          </p>
+        </div>
+        <div class="footerContent">
+          <h3>Contatos</h3>
+          <div class="socialMedia">
+           <a href="https://www.instagram.com/mancity" target="_blank"><img src="./src/img/svg/🦆 icon _Instagram_.svg" alt="Instagram" /></a> 
+           <a href="https://www.instagram.com/mancity" target="_blank"><p>Instagram</p></a> 
+          </div>
+          <div class="socialMedia">
+            <a href="https://www.facebook.com/groups/233383112424634/?hoisted_section_header_type=recently_seen&multi_permalinks=382639787498965&locale=pt_BR" target="_blank"><img
+              src="./src/img/svg/🦆 icon _Facebook Square_.svg"
+              alt="Facebook"
+            /></a> 
+            <a href="https://www.facebook.com/groups/233383112424634/?hoisted_section_header_type=recently_seen&multi_permalinks=382639787498965&locale=pt_BR" target="_blank"><p>Facebook</p></a> 
+          </div>
+          <div class="socialMedia">
+            <a href="https://br.pinterest.com/pin/422281206030940/" target="_blank"><img
+              src="./src/img/svg/🦆 icon _Pinterest Square_.svg"
+              alt="Pinterest"
+            /></a> 
+            <a href="https://br.pinterest.com/pin/422281206030940/" target="_blank"><p>Pinterest</p></a> 
+          </div>
+        </div>
+      </div>
+      <div class="teste">
+        <p>© Galeria Trojan 2024. Todos direitos reservados.</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

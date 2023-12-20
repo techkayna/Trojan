@@ -2,6 +2,10 @@
   padding: 0;
   margin: 0;
 }
+a{
+  text-decoration: none;
+color: #000;
+}
 
 nav {
   background-color: #ffff;
@@ -12,10 +16,15 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 80px;
 }
 
+
+
 .navHeader img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 65px;
   width: 52px;
   height: 58px;
 }
@@ -31,37 +40,293 @@ nav {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  gap: 10px;
-
+  gap: 15px;
+  ;
 }
-.navSeparator{
-    width: 2px;
-    height: 63px;
-    background-color : #000;
-    margin-top: 15px;
+.navSeparator {
+  width: 2px;
+  height: 60px;
+  background-color: #000;
+  margin-top: 10px;
 }
 
-h6{
-    margin-left: 10px;
-    margin-top: 15px;
-    margin-right: 18px;
+nav h6 {
+  display: flex;
+
+  padding-top: 20px;
+  padding-right: 13px;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #000;
+  font-family: "Manjari";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .navContent {
-    
   display: flex;
   justify-content: center;
 
-  margin-top: 15px;
+  padding-top: 20px;
 
   color: #000;
 
   font-family: "Manjari";
-  font-size: 22px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  gap: 50px;
-  margin-left: 40px;
+  gap: 30px;
+  margin-left: 16px;
+  
 }
 
+.enter {
+  padding-left: 1082px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  padding-top: 15px;
+
+  color: #000;
+
+  font-family: "Manjari";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+
+  gap: 15px;
+}
+
+.enter img {
+  width: 17px;
+  height: 19.143px;
+  flex-shrink: 0;
+}
+header {
+  display: flex;
+
+  padding-top: 10px;
+  width: auto;
+  height: 1080px;
+  flex-direction: column;
+}
+
+.carousel-cell {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel.is-fullscreen .carousel-cell {
+  height: 100%;
+}
+
+.carousel-cell img {
+  display: block;
+  max-height: 100%;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: auto;
+  height: 150px;
+  padding-top: 20px;
+}
+
+h5 {
+  color: #917652;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 39.2px;
+  padding-bottom: 11px;
+}
+h4 {
+  color: #3d4246;
+
+  text-align: center;
+  font-family: "Inter";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23.45px;
+  width: 330px;
+}
+
+main {
+  width: auto;
+  height: 2432px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 240px;
+  background-color: #ffff;
+  justify-content: flex-end;
+  padding-top: 40px;
+}
+
+.mainDad {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 200px;
+}
+
+main p {
+  width: 583px;
+  color: #000;
+  text-align: justify;
+  font-family: "Anaheim";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.mainContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+main h6 {
+  display: flex;
+  width: 225.465px;
+  height: 24px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  color: #917652;
+  text-align: center;
+  font-family: "Red Hat Display";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.14px;
+  text-transform: uppercase;
+}
+
+.mainSeparator {
+  display: flex;
+  width: 146px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #987e5d;
+}
+
+.divide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 9px;
+}
+
+aside {
+  width: auto;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+}
+
+aside h2 {
+  color: #997e59;
+  font-family: "Red Hat Display";
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer {
+  display: flex;
+  width: auto;
+  height: 325px;
+  background: rgba(235, 233, 233, 0.27);
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 110px;
+}
+
+.dadFooter {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 250px;
+  padding-top: 80px;
+}
+
+footer h3 {
+  display: flex;
+  width: 90.359px;
+  height: 27px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  font-family: "Red Hat Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 32px; /* 152.381% */
+  letter-spacing: 0.31px;
+  text-transform: uppercase;
+}
+
+.footerContent {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+
+  color: #4b4b49;
+  font-family: "Red Hat Display";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px; /* 161.538% */
+  letter-spacing: 0.13px;
+}
+footer img {
+  width: 16px;
+  height: 16.996px;
+  flex-shrink: 0;
+  gap: 15px;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  padding-top: 1px;
+}
+.teste {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
