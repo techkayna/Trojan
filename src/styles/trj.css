@@ -2,6 +2,10 @@
   padding: 0;
   margin: 0;
 }
+a{
+  text-decoration: none;
+color: #000;
+}
 
 nav {
   background-color: #ffff;
@@ -13,6 +17,8 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
+
 
 .navHeader img {
   display: flex;
@@ -35,6 +41,7 @@ nav {
   font-weight: 400;
   line-height: normal;
   gap: 15px;
+  ;
 }
 .navSeparator {
   width: 2px;
@@ -75,6 +82,7 @@ nav h6 {
   line-height: normal;
   gap: 30px;
   margin-left: 16px;
+  
 }
 
 .enter {
@@ -261,6 +269,7 @@ footer {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  gap: 110px;
 }
 
 .dadFooter {
@@ -268,6 +277,7 @@ footer {
   align-items: center;
   flex-direction: row;
   gap: 250px;
+  padding-top: 80px;
 }
 
 footer h3 {
@@ -289,13 +299,12 @@ footer h3 {
 
 .footerContent {
   display: flex;
-  width: 180px;
-  height: 21px;
+
   flex-direction: column;
   justify-content: center;
 
   color: #4b4b49;
-  font-family: Red Hat Display;
+  font-family: "Red Hat Display";
   font-size: 13px;
   font-style: normal;
   font-weight: 300;
@@ -303,14 +312,21 @@ footer h3 {
   letter-spacing: 0.13px;
 }
 footer img {
-  width: 20px;
-  height: 19.996px;
+  width: 16px;
+  height: 16.996px;
   flex-shrink: 0;
+  gap: 15px;
 }
 
-.socialMedia{
+.socialMedia {
   display: flex;
- align-items: center;
+  align-items: center;
   flex-direction: row;
+  gap: 10px;
+  padding-top: 1px;
+}
+.teste {
+  display: flex;
+  align-items: end;
   justify-content: center;
 }

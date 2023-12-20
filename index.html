@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trojan</title>
     <link rel="stylesheet" href="./src/styles/trj.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/flickity@2/dist/flickity.min.css"
@@ -18,9 +19,9 @@
         <div class="navSeparator"></div>
 
         <div class="navContent">
-          <p>ACERVO</p>
-          <p>ESTÁTUAS</p>
-          <p>VASOS</p>
+          <a href="#linkAcervo">ACERVO</a>
+          <a href="#linkEstatuas">ESTÁTUAS</a>
+          <a href="#linkVasos">VASOS</a>
         </div>
         <div class="enter">
           <img src="./src/img/svg/🦆 icon _User_.svg" alt="iconUser" />
@@ -52,8 +53,13 @@
     </article>
 
     <main>
-      <div></div>
-      <div class="mainDad">
+      <div
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        id="linkAcervo"
+        class="mainDad"
+      >
         <img src="./src/img/png/acervoImg.png" alt="Images acervo" />
         <div class="mainContent">
           <div class="divide">
@@ -70,7 +76,14 @@
           </p>
         </div>
       </div>
-      <div class="mainDad">
+      <div
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="1500"
+        id="linkEstatuas"
+        class="mainDad"
+      >
         <div class="mainContent">
           <div class="divide">
             <h6>Estátuas</h6>
@@ -88,7 +101,13 @@
         </div>
         <img src="./src/img/png/estatuasImg´s.png" alt="Images estatuas" />
       </div>
-      <div class="mainDad">
+      <div
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-duration="1500"
+        id="linkVasos"
+        class="mainDad"
+      >
         <img src="./src/img/png/vasosImg´s.png" alt="Images vasos" />
         <div class="mainContent">
           <div class="divide">
@@ -96,19 +115,27 @@
             <div class="mainSeparator"></div>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Sed vitae egestas risus in
-            eleifend porttitor nam. Amet ut dictumst commodo aliquam eget augue
-            at mi. Commodo sollicitudin ultrices ut nulla venenatis quam at.
-            Lorem ipsum dolor sit amet consectetur. Sed vitae egestas risus in
-            eleifend porttitor nam. Amet ut dictumst commodo aliquam eget augue
-            at mi. Commodo sollicitudin ultrices ut nulla venenatis quam at.
+            Os vasos da Grécia Antiga, em cerâmica, destacam-se por sua
+            excelência artística, combinando realismo e simbolismo em
+            representações de cotidiano, mitologia e rituais religiosos. Além de
+            sua função prática, desempenharam um papel vital na religião e
+            sociedade gregas, transmitindo narrativas visuais profundas. Seu
+            legado perdura na história da arte, influenciando artistas
+            subsequentes com sua sofisticação técnica e expressividade
+            narrativa.
           </p>
         </div>
       </div>
     </main>
-    <aside><h2>CLIQUE E CONHEÇA O ACERVO COMPLETO</h2></aside>
+    <aside>
+      <a href="https://www.medalhaopersa.com.br/decoracao" target="_blank"
+        ><h2>CLIQUE E CONHEÇA O ACERVO COMPLETO</h2></a
+      >
+    </aside>
 
-    <footer>
+    <footer data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1000">
       <div class="dadFooter">
         <div class="footerContent">
           <h3>Galeria</h3>
@@ -131,29 +158,35 @@
           </p>
         </div>
         <div class="footerContent">
+          <h3>Contatos</h3>
           <div class="socialMedia">
-            <h3>Contatos</h3>
-            <img src="./src/img/svg/🦆 icon _Instagram_.svg" alt="Instagram" />
-            <p>Instagram</p>
+           <a href="https://www.instagram.com/mancity" target="_blank"><img src="./src/img/svg/🦆 icon _Instagram_.svg" alt="Instagram" /></a> 
+           <a href="https://www.instagram.com/mancity" target="_blank"><p>Instagram</p></a> 
           </div>
           <div class="socialMedia">
-            <img
+            <a href="https://www.facebook.com/groups/233383112424634/?hoisted_section_header_type=recently_seen&multi_permalinks=382639787498965&locale=pt_BR" target="_blank"><img
               src="./src/img/svg/🦆 icon _Facebook Square_.svg"
               alt="Facebook"
-            />
-            <p>Facebook</p>
+            /></a> 
+            <a href="https://www.facebook.com/groups/233383112424634/?hoisted_section_header_type=recently_seen&multi_permalinks=382639787498965&locale=pt_BR" target="_blank"><p>Facebook</p></a> 
           </div>
           <div class="socialMedia">
-            <img
+            <a href="https://br.pinterest.com/pin/422281206030940/" target="_blank"><img
               src="./src/img/svg/🦆 icon _Pinterest Square_.svg"
               alt="Pinterest"
-            />
-            <p>Pinterest</p>
+            /></a> 
+            <a href="https://br.pinterest.com/pin/422281206030940/" target="_blank"><p>Pinterest</p></a> 
           </div>
         </div>
       </div>
-      <p>© Galeria Trojan 2024. Todos direitos reservados.</p>
+      <div class="teste">
+        <p>© Galeria Trojan 2024. Todos direitos reservados.</p>
+      </div>
     </footer>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
